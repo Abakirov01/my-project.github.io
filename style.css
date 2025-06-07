@@ -1075,9 +1075,6 @@ form button[type="submit"]:hover {
             flex-wrap: wrap;
             justify-content: center
         }
-        .promo {
-          display: none;
-        }
 
         .promo-image img {
             max-width: 100%;
