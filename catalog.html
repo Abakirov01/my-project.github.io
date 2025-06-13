@@ -99,6 +99,34 @@
     <div class="product-price">27 500 сом</div>
     <button class="add-to-cart">Добавить в корзину</button>
   </div>
+  <div class="product-card" data-category="Аксессуары" data-price="1500">
+    <img src="img/catalog-img/cat5.jpg" alt="Наушники 123456">
+    <h3>Наушники 123456</h3>
+    <p>Беспроводные наушники с отличным звуком.</p>
+    <div class="product-price">1 500 сом</div>
+    <button class="add-to-cart">Добавить в корзину</button>
+  </div>
+  <div class="product-card" data-category="Смартфоны" data-price="75000">
+    <img src="img/catalog-img/Samsung Galaxy S23.png" alt="Samsung Galaxy S23">
+    <h3>Samsung Galaxy S23</h3>
+    <p>Флагманский смартфон с отличной камерой.</p>
+    <div class="product-price">75 000 сом</div>
+    <button class="add-to-cart">Добавить в корзину</button>
+  </div>
+  <div class="product-card" data-category="Компьютеры" data-price="120000">
+    <img src="img/catalog-img/Ноутбук Dell XPS 13.png" alt="Ноутбук Dell XPS 13">
+    <h3>Ноутбук Dell XPS 13</h3>
+    <p>Компактный и мощный ноутбук для работы и учебы.</p>
+    <div class="product-price">120 000 сом</div>
+    <button class="add-to-cart">Добавить в корзину</button>
+  </div>
+  <div class="product-card" data-category="Аксессуары" data-price="1500">
+    <img src="img/catalog-img/Headphone.png" alt="1MORE Sono Flow Pro Over-Ear Headphones">
+    <h3>1MORE Sono Flow Pro Over-Ear Headphones</h3>
+    <p>Беспроводные наушники с отличным звуком.</p>
+    <div class="product-price">5 700 сом</div>
+    <button class="add-to-cart">Добавить в корзину</button>
+  </div>
   <!-- Добавляй новые карточки по аналогии, с нужной категорией и ценой -->
 </section>
 
@@ -144,7 +172,7 @@ hamburger.addEventListener('click', () => {
   document.body.classList.toggle('no-scroll');
 });
 
-// Чтобы меню закрывалось при клике по пункту (на мобиле)
+
 navMenu.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     navMenu.classList.remove('active');
